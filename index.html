@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="javascript.js" defer> </script>
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <input type="checkbox" id="modo-noturno">
+    <main>
+
+
+
+
+        <div class="calculadora">
+            <label for="modo-noturno" class="btn-img"></label>
+            <!-- <div class="btn">
+            <input name="btn-noturno" type="checkbox" id="btn-noturno">
+            <label class="btn-img" for="btn-noturno"> -->
+
+            <!-- <img src="imagens/sol.png" alt="sol"> -->
+            <!-- <img src="imagens/noturno.png" alt="lua"> -->
+            <!-- </label>
+        </div> -->
+
+            <input class="resultado" id="resultado" type="text" placeholder="0" disabled="disabled">
+
+
+            <div class="botoes">
+
+                <div class="nivel-1">
+                    <button onclick="calcular('acao', 'C')" class="btn-c btn" type="button">C</button>
+                    <button onclick="calcular('acao', '/')" class="btn-/ btn" type="button">/</button>
+                    <button onclick="calcular('acao', '*')" class="btn-x btn" type="button">*</button>
+                </div>
+
+                <div class="nivel-2">
+                    <button onclick="calcular('valor', 7)" class="btn-7 btn" type="button">7</button>
+                    <button onclick="calcular('valor', 8)" class="btn-8 btn" type="button">8</button>
+                    <button onclick="calcular('valor', 9)" class="btn-9 btn" type="button">9</button>
+                    <button onclick="calcular('acao', '-')" class="btn-subtracao btn" type="button">-</button>
+                </div>
+
+                <div class="nivel-2">
+                    <button onclick="calcular('valor', 4)" class="btn-7 btn" type="button">4</button>
+                    <button onclick="calcular('valor', 5)" class="btn-5 btn" type="button">5</button>
+                    <button onclick="calcular('valor', 6)" class="btn-6 btn" type="button">6</button>
+                    <button onclick="calcular('acao', '+')" class="btn-+ btn" type="button">+</button>
+                </div>
+
+                <div class="nivel-3">
+                    <button onclick="calcular('valor', 1)" class="btn-1 btn" type="button">1</button>
+                    <button onclick="calcular('valor', 2)" class="btn-2 btn" type="button">2</button>
+                    <button onclick="calcular('valor', 3)" class="btn-3 btn" type="button">3</button>
+                    <button onclick="calcular('acao', '=')" class="btn-igual btn" type="button">=</button>
+                </div>
+
+                <div class="nivel-4">
+                    <button onclick="calcular('valor', 0)" class="btn-0 btn" type="button">0</button>
+                    <button onclick="calcular('acao', '.')" class="btn-. btn" type="button">.</button>
+                </div>
+
+            </div>
+            <!--Fim botões-->
+
+        </div>
+        <!--Fim Calculadora-->
+    </main>
+
+</body>
+
+</html>
