@@ -24,6 +24,8 @@ body {
     background: #FFDD5E;
     margin: 60px auto;
     border-radius: 20px; 
+
+    border: 1px solid black;
 }
 
 .calculadora label {
