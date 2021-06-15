@@ -77,7 +77,8 @@ function onSelectImage(event) {
     // assim que terminar de ler a imagem
     // jogá-la como plano de fundo da #calculadora
     reader.onload = function (event) {
-        document.querySelector('#calculadora').style.background = "url('" + event.target.result + "') no-repeat 0 0 ";
+        document.querySelector('#calculadora').style.background = "url('" + event.target.result + "') no-repeat  ";
+        document.querySelector('#calculadora').style.backgroundSize = "100% 100%";
     };
 
     // Informa ao reader para ler a image como base64

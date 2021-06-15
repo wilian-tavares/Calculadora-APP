@@ -22,6 +22,7 @@ body {
     height: 700px;
 
     background: #FFDD5E;
+    background-size: cover;
     margin: 60px auto;
     border-radius: 20px; 
 
@@ -54,6 +55,7 @@ body {
 
     font-size: 3rem;
     text-align: right;
+    opacity: 0.5;
 }
 
 .botoes {
@@ -69,6 +71,7 @@ body {
 
     border-radius: 20px;
     font-size: 3rem;
+    opacity: 0.6;
 }
 
 .botoes .btn-c, .botoes .btn-igual, .botoes .btn-0 {
