@@ -9,6 +9,7 @@
 
     <script src="javascript.js" defer> </script>
 
+    <link rel="icon" href="imagens/calculadora-icon.jpg">
     <link rel="stylesheet" href="css/estilo.css">
 
 
@@ -16,22 +17,18 @@
 </head>
 
 <body>
+
+
     <input type="checkbox" id="modo-noturno">
     <main>
 
 
 
+        <div class="calculadora" id="calculadora">
+            <!-- <input name="imagem-fundo" id="imagem-usuario" type="file" accept="image/png, image/jpeg"> -->
+            <input type="file" id="file_input" class="file_input" onchange="onSelectImage(event)" />
 
-        <div class="calculadora">
             <label for="modo-noturno" class="btn-img"></label>
-            <!-- <div class="btn">
-            <input name="btn-noturno" type="checkbox" id="btn-noturno">
-            <label class="btn-img" for="btn-noturno"> -->
-
-            <!-- <img src="imagens/sol.png" alt="sol"> -->
-            <!-- <img src="imagens/noturno.png" alt="lua"> -->
-            <!-- </label>
-        </div> -->
 
             <input class="resultado" id="resultado" type="text" placeholder="0" disabled="disabled">
 
